@@ -1,4 +1,4 @@
-### marker.js
+## marker.js
 
 A mediocre level library for drawing all kinds of google maps. This is meant to show the implementation of ES6 classes. 
 
@@ -7,3 +7,4 @@ A mediocre level library for drawing all kinds of google maps. This is meant to 
 	1. Introduction
 	2. Usage
 	3. Updates
+	4. Dependencies
