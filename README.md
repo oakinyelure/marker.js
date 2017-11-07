@@ -10,7 +10,7 @@ A mediocre level library for drawing all kinds of google maps. This is meant to 
 	4. Dependencies
 
 
-## **1. Introduction**
+## 1. Introduction
 	
 	In  the beginning, this.was a fulfilment of a requirement at work. I also was was really hyped about the new ES6 release of the class and static keyword. As at the time of writing this library, I am still a student of IUPUI and a Java and PHP developer so please review my code with extreme criticism.
 
@@ -53,6 +53,6 @@ A mediocre level library for drawing all kinds of google maps. This is meant to 
 	No Big difference I know.
 
 
-**2. Usage**
+## 2. Usage
 
 	djfgfjfghfj
