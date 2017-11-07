@@ -24,30 +24,32 @@ Normal functional object would do this
 
 function example(foo,bar) {
 
-this.foo = foo;
-this.bar = bar;
+	this.foo = foo;
+	this.bar = bar;
 
 var doSomeThing() {
 
-//do something
-}
+	//do something
+
+	}
 }
 
 Now I have this
 
 class example {
 
-constructor(foo,bar) {
+	constructor(foo,bar) {
 
-this.foo = foo;
-this.bar = bar;
+	this.foo = foo;
+	this.bar = bar;
 
-}
+	}
 
 doSomething() {
 
-// do something
-}
+	// do something
+	
+	}
 }
 
 
