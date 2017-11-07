@@ -10,6 +10,6 @@ A mediocre level library for drawing all kinds of google maps. This is meant to 
 	4. Dependencies
 
 
-1. **	Introduction	**
+**1. Introduction**
 	
 
