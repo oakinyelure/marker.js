@@ -85,9 +85,48 @@ Usage depends on the functionality you are trying to access
 
 Member Method
 
-	var map = new Mapper(elementID,latitude,longitude);
+	var map = new Mapper(elementID,latitude,longitude); //	element ID is the id of the element you want the map to be placed. Longitude and latitude or geo coordinates of those addresses<.
+
+	map.memberMethods(); // memberMethods is the method name you want to call. 
+
+	Available Methods :
+	*styElement()
+	*createMarkerMap()
+
+	Example Usage
+
+	map.createMarjerMap();
+
+Static Methods
+
+	Mapper.staticMethod() // static method is the method you want to access
+
+	Available Static Methods
+	*showMultipleMapMarkers(elementID,addressArray)  // AddressArray is the array of address you are passsing.
+
+	Example Usage:
+
+	Note: Will expect four elements inside array. This will include the title,address,latitude and longitude
+	var addressArray = [
+		["Title","Address String","Latitude","Longitude"];
+
+	]
+
+	Mapper.showMultipleMapMarkers('exampleid',addressArray);
+
+	Possible Exceptions
+
+	TypeError
+	ReferenceError
+
+
+
+
+
+
+
 	
-	
+
 
 
 
