@@ -1,3 +1,4 @@
+
 /****
  * Class would be responsible for drawing maps and all other activities to be performed by a map. There would be a core dependency on google API and JQUERY
  */
@@ -63,6 +64,7 @@ class Mapper {
         this.mapElement = element;
 
     }
+
 
     /**
      * Function styles the element passed to it. Style would be box-like and constructed to handle mapping
@@ -170,7 +172,7 @@ class Mapper {
         for(var counter = 0; counter < addresses.length; counter++) {
 
             marker = new google.maps.Marker({
-                position: new google.maps.LatLng(addresses[counter][1],addresses[counter][2]),
+                position: new google.maps.LatLng(addresses[counter][2],addresses[counter][3]),
                 map : map
             });
 
@@ -179,7 +181,7 @@ class Mapper {
             google.maps.event.addListener(marker,'mouseover',(function(marker,counter) {
 
                 return function() {
-                    infoWindow.setContent("<strong>Address 1 : </strong>" + addresses[counter][0] + "<br/><strong>Latitude</strong> : " + addresses[counter][1] + "<br/> <strong>Longitude</strong> : " + addresses[counter][2]);
+                    infoWindow.setContent("<h4 style='color: #50578b;'>"+addresses[counter][0]+"</h4>" + "<strong>Address 1 : </strong>" + addresses[counter][1] + "<br/><strong>Latitude</strong> : " + addresses[counter][2] + "<br/> <strong>Longitude</strong> : " + addresses[counter][3]);
                     infoWindow.open(map,marker);
                 }
             })(marker,counter));
