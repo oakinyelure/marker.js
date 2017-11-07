@@ -1,4 +1,4 @@
-## marker.js
+# marker.js
 
 A mediocre level library for drawing all kinds of google maps. This is meant to show the implementation of ES6 classes. 
 
@@ -11,48 +11,49 @@ A mediocre level library for drawing all kinds of google maps. This is meant to 
 
 
 ### 1. Introduction
-	
-	In  the beginning, this.was a fulfilment of a requirement at work. I also was was really hyped about the new ES6 release of the class and static keyword. As at the time of writing this library, I am still a student of IUPUI and a Java and PHP developer so please review my code with extreme criticism.
 
-	this.dream is to create a complete mapping package that solves a wide array of mapping problems. Like Jquery, *Do more with less*, I intend to be able to do a lot of things with the google map with just a method call.
+In  the beginning, this.was a fulfilment of a requirement at work. I also was was really hyped about the new ES6 release of the class and static keyword. As at the time of writing this library, I am still a student of IUPUI and a Java and PHP developer so please review my code with extreme criticism.
 
-	this.structure is a simple OOP modelled after Java except that this is javascript. If you need to help out, class documentation is at https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes. There is a lot in there. 
+this.dream is to create a complete mapping package that solves a wide array of mapping problems. Like Jquery, *Do more with less*, I intend to be able to do a lot of things with the google map with just a method call.
 
-	The Difference
+this.structure is a simple OOP modelled after Java except that this is javascript. If you need to help out, class documentation is at [Developer.Mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes). There is a lot in there. 
 
-	Normal functional object would do this
+The Difference
 
-	function example(foo,bar) {
+Normal functional object would do this
 
-		this.foo = foo;
-		this.bar = bar;
+function example(foo,bar) {
 
-		var doSomeThing() {
-			//do something
-		}
-	}
+this.foo = foo;
+this.bar = bar;
 
-	Now I have this
+var doSomeThing() {
 
-	class example {
+//do something
+}
+}
 
-		constructor(foo,bar) {
+Now I have this
 
-			this.foo = foo;
-			this.bar = bar;
+class example {
 
-		}
+constructor(foo,bar) {
 
-		doSomething() {
+this.foo = foo;
+this.bar = bar;
 
-			// do something
-		}
-	}
+}
+
+doSomething() {
+
+// do something
+}
+}
 
 
-	No Big difference I know.
+No Big difference I know.
 
 
 ### 2. Usage
 
-	djfgfjfghfj
+djfgfjfghfj
