@@ -191,7 +191,7 @@ class Mapper {
             google.maps.event.addListener(marker,'mouseout',(function(marker,counter) {
 
                 return function() {
-                    infoWindow.close();
+                    infoWindow. ();
                 }
             })(marker,counter));
 
