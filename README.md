@@ -95,7 +95,7 @@ Member Method
 
 	Example Usage
 
-	map.createMarjerMap();
+	map.createMarkerMap();
 
 Static Methods
 
